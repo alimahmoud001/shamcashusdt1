@@ -1,0 +1,18 @@
+{
+  "name": "telegram-usdt-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for USDT trading via ShamCash",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "npm install"
+  },
+  "keywords": ["telegram", "bot", "usdt", "trading", "shamcash"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.3.1"
+  }
+}
